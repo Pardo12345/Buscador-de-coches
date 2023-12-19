@@ -11,7 +11,7 @@ int main() {
 	int opcion;
 
 	do {
-		cout << "Encriptado de listas" << endl;
+		cout << "" << endl;
 		cout << " " << endl;
 		cout << "1. Buscar coche" << endl;
 		cout << "2. Visualizar datos" << endl;
@@ -22,11 +22,11 @@ int main() {
 
 		switch (opcion) {
 		case 1:
-			Buscar();
+			//Buscar();
 			break;
 
 		case 2:
-			Abrir_datos();
+			//Abrir_datos();
 			break;
 
 		case 0:
