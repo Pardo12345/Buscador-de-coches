@@ -4,6 +4,7 @@
 #include <string>
 #include <cstdlib>
 #include <fstream>
+#include<stdlib.h>
 using namespace std;
 
 
@@ -11,7 +12,7 @@ int main() {
 	int opcion;
 
 	do {
-		cout << "" << endl;
+		cout << "	Buscador de coches" << endl;
 		cout << " " << endl;
 		cout << "1. Buscar coche" << endl;
 		cout << "2. Visualizar datos" << endl;
@@ -20,13 +21,18 @@ int main() {
 		cin >> opcion;
 		cin.ignore();
 
+
+		void Buscar();
+
+		void Abrir_datos();
+
 		switch (opcion) {
 		case 1:
-			//Buscar();
+			Buscar();
 			break;
 
 		case 2:
-			//Abrir_datos();
+			Abrir_datos();
 			break;
 
 		case 0:
