@@ -12,7 +12,7 @@ int main() {
 	int opcion;
 
 	do {
-		cout << "	Buscador de coches" << endl;
+		cout << "Buscador de coches" << endl;
 		cout << " " << endl;
 		cout << "1. Buscar coche" << endl;
 		cout << "2. Visualizar datos" << endl;
